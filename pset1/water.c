@@ -7,13 +7,12 @@ int main(void)
     // Takes in userInput
     printf("What is the length of your shower?\n");
     int userInput = GetInt();
-    
-    printf("you take %i\n", userInput);
-    
+
     //Calculations
     int waterUsage = userInput * 192;
     int numBottles = waterUsage / 16;
     
+    //Prints out the #of water bottles
     printf("%i bottles of water\n", numBottles);
     
 }
