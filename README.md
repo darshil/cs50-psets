@@ -4,7 +4,7 @@ Harvard CS50: Intro to Computer Science Course
 
 ![](https://www.edx.org/sites/default/files/school/image/banner/harvardx.jpg)
 
-This is my CS50 Problem Sets. Harvard University. Fall 2015.
+This is my CS50 Problem Sets. Harvard University. Fall 2016.
 
 This repository is for tracking and publishing my problem sets in the Harvard Computer Science course cs50 Introduction to Computer Science from the [Harvard X Open Courseware](https://cs50.harvard.edu/).
 
