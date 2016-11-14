@@ -9,22 +9,31 @@ int main(void)
     string hex = "#";
     
     printf("Enter the pyramid's height\n");
-    int userInput = GetInt();
+    int n = GetInt();
     
-    if(userInput < minNUM || userInput  > maxNUM){ 
+    if(n < minNUM || n  > maxNUM){ 
         printf("Enter the pyramid's height\n");
-         userInput = GetInt();
+         n = GetInt();
     }
-    if(userInput == 0 ){
-      printf("\n");   
+    if(n == 0 ){
+      printf(""); 
         
     }
 
-        for(int a = userInput; a > 1 ; a--){
+    int i, k, j;
 
-        printf("%s", hex );
-        
-   
+    for(i=1; i<=n; i++)
+    {
+        for(k=0; k<=n-i - 1 ; k++)
+        {
+             printf(" ");
         }
- 
+
+       for(j=n; j>=k; j--)
+       {
+           printf("%s", hex);
+       }
+
+         printf("\n");
+    }
 }
