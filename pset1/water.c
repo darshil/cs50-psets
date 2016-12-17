@@ -14,5 +14,5 @@ int main(void)
     
     //Prints out the #of water bottles
     printf("%i bottles of water\n", numBottles);
-    
+   
 }
