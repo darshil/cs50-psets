@@ -5,15 +5,19 @@
 int main(void)
 {
     
+    
+    
     printf("Enter the amount of money\n");
     float userInput =GetFloat();
     int totalValue = userInput * 100;
     int counter = 0;
-     
-     while(totalValue >= 25 ){
+  
+    
+     while(totalValue >= 25 && totalValue % 25 != 0 ){
          totalValue = totalValue - 25;
          counter++;
      }
+     /*
      while(totalValue >= 10 ){
          totalValue = totalValue - 10;
          counter++;
@@ -22,12 +26,16 @@ int main(void)
          totalValue = totalValue - 5;
          counter++;
      }
-     while(totalValue >= 1 ){
+     while(totalValue > 1 ){
          totalValue = totalValue - 1;
          counter++;
      }
+      */  
+    
      
+
      printf("%i\n", counter);
+     printf("%i\n", totalValue);
 }
 
-//check50 2015.fall.pset1.water water.c
+//check50 2015.fall.pset1.greedy greedy.c
