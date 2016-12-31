@@ -12,6 +12,7 @@ No  | Problem Set
 ------------- | -------------
 0. | Sketch Programs
 1. | [C Programs](https://github.com/darshilpatel/cs50-psets/tree/master/pset1)
+2. | [Crypto](https://github.com/darshilpatel/cs50-psets/tree/master/pset2)
 
 ### Licensing
 These Harvard CS50 problem sets are licensed under [the MIT License](https://github.com/darshilpatel/cs50-psets/blob/master/LICENSE).
